@@ -1,1 +1,9 @@
-console.log("Working on Progress")
+let a;
+let b;
+function add(){
+  console.log(a+b)
+}
+
+module.exports = {
+  add
+}
