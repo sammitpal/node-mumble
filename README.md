@@ -1,1 +1,5 @@
-# A node package that creates a random unique 12 characters string 
+# A node package that creates a random unique characters string 
+
+## INPUT -> Length of the required string
+
+##   Example:

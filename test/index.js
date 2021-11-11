@@ -1,3 +1,3 @@
-import { add } from 'node-mumble';
+const { add } = require('node-mumble');
 
-add(2)
+add(5,6)
