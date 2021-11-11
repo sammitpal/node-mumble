@@ -1,0 +1,1 @@
+# A node package that creates a random unique 12 characters string 

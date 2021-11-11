@@ -1,5 +1,5 @@
 {
-  "name": "mumble",
+  "name": "node-mumble",
   "version": "1.0.0",
   "description": "generate a random string",
   "main": "index.js",
