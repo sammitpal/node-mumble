@@ -1,0 +1,19 @@
+{
+  "name": "mumble",
+  "version": "1.0.0",
+  "description": "generate a random string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sammitpal2000/node-mumble.git"
+  },
+  "author": "sammitpal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sammitpal2000/node-mumble/issues"
+  },
+  "homepage": "https://github.com/sammitpal2000/node-mumble#readme"
+}
