@@ -11,7 +11,7 @@ INPUT -> Length of the required string
 
   Usage: 
 
-    `const { mumble } = require('node-mumble')`
-    `console.log(mumble(12))
+    const { mumble } = require('node-mumble')
+    console.log(mumble(12))
 
     // returns vl6QLrr3xIBe
