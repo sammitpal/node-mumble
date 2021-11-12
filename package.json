@@ -1,7 +1,7 @@
 {
   "name": "node-mumble",
-  "version": "1.2.0",
-  "description": "generate a random string",
+  "version": "1.2.1",
+  "description": "A node package that creates a random unique characters string",
   "main": "index.js",
   "repository": {
     "type": "git",
