@@ -9,6 +9,45 @@ function mumble(input) {
   }
   return uniqString
 }
+
+function isLetter(s)
+{
+  return s.match("^[a-zA-Z\(\)]+$");    
+}
+function isNumeric(s)
+{
+  return s.match("^[0-9\(\)]+$");    
+}
+
+
+function mumbleaplha(input) {
+  let uniqString = "";
+  const length = arr.length
+  while (input!=0) {
+    const randomIndex = Math.floor(Math.random()*length)
+    if(isLetter(arr[randomIndex])){
+      uniqString = uniqString+arr[randomIndex];
+      input = input - 1;
+    }
+  }
+  return uniqString
+}
+function mumblenum(input) {
+  let uniqString = "";
+  const length = arr.length
+  while (input!=0) {
+    const randomIndex = Math.floor(Math.random()*length)
+    if(isNumeric(arr[randomIndex])){
+      uniqString = uniqString+arr[randomIndex];
+      input = input - 1;
+    }
+  }
+  return uniqString
+}
+
+
 module.exports = {
-  mumble
+  mumble,
+  mumbleaplha,
+  mumblenum
 }
